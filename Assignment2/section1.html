@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Container for the image and form */
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+/* Image section */
+.image-section {
+  flex: 1;
+  background-image: url('desktop-wallpaper-custom-food-store-wood-pattern-coffee-3d-retro-mural-for-the-restaurant-cafe-hotel-backgrou-vintage-coffee-shops-coffee-shop-design-coffee-shop-decor.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Form section */
+.form-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1f1;
+}
+
+/* Form container */
+.form-container {
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: 1px solid #ccc;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Style the submit button */
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="image-section"></div>
+  <div class="form-section">
+    <form action="/action_page.php" class="form-container">
+      <h1><img src="logo-for-coffee-shop-vector-20164101.jpg" alt="Girl in a jacket" width="50" height="50"> Flower</h1>
+	  <h1>WELCOME BACK</h1>
+	  <h3>Welcome Back! Please enter your details.</h3>
+
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+	  
+	  <fieldset>
+	   <legend></legend>
+	   <input type="checkbox">Reminder me   <h3><a href="#point 1" target="_New1">Forgot password</a></h3>
+	   </fieldset>
+	   
+	   
+
+      <button type="submit" class="btn">Login</button>
+	  <button type="submit" class="btn">Sign in with Google</button>
+	  <h3>Don't have an account  <h3><a href="#point 1" target="_New1">Sign up free</a></h3></h3>
+    </form>
+  </div>
+</div>
+
+</body>
+</html>

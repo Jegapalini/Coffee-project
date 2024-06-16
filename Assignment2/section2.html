@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Split Screen Background Colors</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+        .left-side {
+            flex: 1;
+            background-color: #ffffff; /* White background color */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .right-side {
+            flex: 1;
+            background-color:#080808; /* Blue background color */
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="left-side">
+        <form>
+            <h2>Select Your Role!</h2>
+            
+			<button type="submit">Sign as a Customer</button>
+	<br><br>
+	<button type="submit">Sign as a owner</button>
+            <br><br>
+        </form>
+    </div>
+    <div class="right-side">
+        <div>
+            <h2>Welcome Back!</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			<button type="submit">Login</button>
+        </div>
+    </div>
+</body>
+</html>
